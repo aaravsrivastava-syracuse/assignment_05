@@ -1,7 +1,1 @@
-Write your reflection here.
-
-See reflection.md for what makes a good reflection — be specific, use the
-terminology from this assignment (grain, long vs. wide, vectorized .str methods,
-coerce, NaT, pd.to_datetime format, .dt, concat, ignore_index, group by, named
-aggregation, reset_index, pivot_table, fill_value, melt, lineage), and make it
-actionable.
+I learned a lot from doing this assignment, at first I was confused about grain and how a long table could be changed into a wide table without losing where the information came from. I also struggled with the vectorized .str methods because I was more used to cleaning one value at a time, but I understand more now how they can clean a whole column and how coerce keeps a bad value from crashing everything. The dates were confusing for me too since there were two formats and I had to use pd.to_datetime twice and understand why unreadable dates became NaT. I learned how concat with ignore_index combines all of the weekly files and how group by with named aggregation changes the history into one row for every employee. The pivot_table and fill_value parts made more sense after I saw how they created the wide hours grid, but melt was harder because it changed the grid back into a long table to find missed weeks. I still need more practice with knowing when the grain should change and using group by, pivot_table, and melt on my own because I understand what they do better now but I think building the whole report without instructions would still be difficult for me.
